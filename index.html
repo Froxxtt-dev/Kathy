@@ -62,14 +62,7 @@
             opacity: 0.7;
             animation: fall 5s infinite;
         }
-
-       #cake {
-            width: 70px;
-            /* Your updated size */
-            margin-top: 30%;
-            /* Your updated margin */
-        }
-
+        
         @keyframes bounce {
 
             0%,
@@ -125,13 +118,10 @@
     <div class="container">
         <h1>Happy Birthday!</h1>
         <p id="message">Enter your name for a special birthday wish!</p>
-        <input type="text" id="nameInput" placeholder="Your name" style="padding: 5px; margin: 0.5%;">
-        <button onclick="generateWish()">Get Your Wish!</button>
-        <img src id="cake">
-    </div>
-    <img src="c:\Users\Bright Frost\OneDrive\Documents\Birthday site\images\baloon.png" alt="Party Balloons"
-        class="balloons" style="top: 10%; left: 10%;">
+        <input type="text" id="nameInput" placeholder="Your name" style="padding: 5px; margin: 0.5%;">        <button onclick="generateWish()">Get Your Wish!</button>
 
+    </div>
+       
     <script>
         // Generate confetti
         function createConfetti() {
